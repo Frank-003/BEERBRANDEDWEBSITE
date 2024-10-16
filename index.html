@@ -1,204 +1,180 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
+    <meta charser="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beer Website Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-    <!-- font awesome cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <!-- custom css file link -->
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- header section starts -->
     <header>
+        <a href="#" class="logo">Beers</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
 
-
-        <div class="user">
-            <img src="images/pic1.jpg" alt="">
-            <h3 class="name">Frankie Chan</h3>
-            <p class="post">IT guru</p>
-        </div>
-
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#education">education</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
-
-
-
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Brand">Brand</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </header>
-    <!-- header section ends-->
-
-    <div id="menu" class="fas fa-bars"></div>
-
-    <!-- home section starts -->
-
+    <!------- home start ------>
     <section class="home" id="home">
-        <h3>HELLO THERE !</h3>
-        <h1>I'M <span>Frankie Chan</span></h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+        <div class="home-text">
+            <h1>Full Website</h1>
+            <h2>Beer The <br> Most Alcolic Thing</h2>
+            <a href="#" class="btn">Today's Brand</a>
+        </div>
 
+        <div class="home-img">
+            <img src="img/home.jpg" </div>
     </section>
-    <!-- home section ends -->
 
-    <!-- about section starts -->
+    <!-------about start ------>
     <section class="about" id="about">
-        <h1 class="heading"> <span>about</span>me</h1>
-        <div class="row">
-            <div class="info">
-                <h3> <span> name :</span> Frankie Chan </h3>
-                <h3> <span> age :</span> 21 </h3>
-                <h3> <span> qualification :</span> BMS </h3>
-                <h3> <span> post :</span> IT guru </h3>
-                <h3> <span> language :</span> english </h3>
-                <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i></button></a>
-            </div>
-            <div class="counter">
-                <div class="box">
-                    <span>2+</span>
-                    <h3>years of experience</h3>
-                </div>
+        <div class="about-img">
+            <img src="img/about.jpg">
+        </div>
 
-                <div class="box">
-                    <span>50+</span>
-                    <h3>project completed</h3>
-                </div>
-                <div class="box">
-                    <span>75</span>
-                    <h3>happy clients</h3>
-                </div>
-                <div class="box">
-                    <span>10+</span>
-                    <h3>awards won</h3>
-                </div>
-            </div>
+        <div class="about-text">
+            <span>About Us</span>
+            <h2>We Sell the good <br> brand beer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <a href="#" class="btn">Learn More</a>
         </div>
 
     </section>
-    <!-- about section ends -->
-    <section class="education" id="education">
-        <h1 class="heading"> my <span>education</span> me </h1>
-        <div class="box-container">
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2018</span>
-                <h3>IT guru</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2019</span>
-                <h3>IT guru</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2020</span>
-                <h3>IT guru</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2021</span>
-                <h3>IT guru</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2022</span>
-                <h3>IT guru</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
-            </div>
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2023</span>
-                <h3>IT guru</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
-            </div>
+
+    <!-------brand start ------>
+    <section class="Brand" id="Brand">
+        <div class="heading">
+            <span>Beer Brand</span>
+            <h2>Strong and highly Alcoholic</h2>
         </div>
 
-    </section>
-    <!-- education section starts -->
+        <div class="Brand-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/beer1.png">
+                </div>
+                <h2>Berry Beer</h2>
+                <h3>10% Alcoholic</h3>
+                <span>Ksh 500</span>
+                <i class='bx bx-cart'></i>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/beer2.png">
+                </div>
+                <h2>Wheat Beer</h2>
+                <h3>15% Alcoholic</h3>
+                <span>Ksh 750</span>
+                <i class='bx bx-cart'></i>
+            </div>
 
-    <!-- portfolio section starts -->
-    <section class="portfolio" id="portfolio">
-        <h1 class="heading"> my <span>portfolio</span> </h1>
-        <div class="box-container">
             <div class="box">
-                <img src="images/img1.jpg" alt="">
+                <div class="box-img">
+                    <img src="img/beer3.png">
+                </div>
+                <h2>Porter Beer</h2>
+                <h3>20% Alcoholic</h3>
+                <span>Ksh 1100</span>
+                <i class='bx bx-cart'></i>
             </div>
-            <div class="box">
-                <img src="images/img2.jpg" alt="">
+
+        </div>
+    </section>
+
+    <!-------service start------>
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Services</span>
+            <h2>We Provide Best Quality Beer Brand</h2>
+        </div>
+        <div class="service-container">
+            <div class="s-box">
+                <img src="img/s1.png">
+                <h3>Order</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
             </div>
-            <div class="box">
-                <img src="images/img3.jpg" alt="">
+            <div class="s-box">
+                <img src="img/s2.png">
+                <h3>Shipping</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
             </div>
-            <div class="box">
-                <img src="images/img4.jpg" alt="">
-            </div>
-            <div class="box">
-                <img src="images/img5.jpg" alt="">
-            </div>
-            <div class="box">
-                <img src="images/img6.jpg" alt="">
+            <div class="s-box">
+                <img src="img/s3.png">
+                <h3>Delivered</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
             </div>
         </div>
-
     </section>
-    <!-- portfolio section ends-->
 
-    <!-- contact section starts -->
-    <section class="contact" id="contact">
-        <h1 class="heading"> <span>contact</span> me </h1>
-        <div class="row">
-            <div class="content">
-                <h3 class="tittle">contact info</h3>
-                <div class="info">
-                    <h3> <i class="fas fa-envelope"></i> oyiengofrankline49@gmail.com </h3>
-                    <h3> <i class="fas fa-phone"></i> +254-110-124-153 </h3>
-                    <h3> <i class="fas fa-phone"></i> +254-113-122-143</h3>
-                    <h3> <i class="fas fa-map-marker-alt"></i> Nairobi, kenya - 00100. </h3>
+    <!-------call to action------>
+    <section class="cta">
+        <h2>We make quality brand <br> Everyday</h2>
+        <a href="#" class="btn">Let's Talk</a>
+    </section>
 
+    <!-------footer start------>
+    <section id="contact">
+        <div class="footer">
+            <div class="main">
+                <div class="col">
+                    <h4>Menu Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Brand</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4>Our Service</h4>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Production Management</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms $ conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4>Contact Us</h4>
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#"><i class='bx bxl-youtube' ></i></a>
+                    </div>
                 </div>
             </div>
-            <form action="">
-                <input type="text" placeholder="name" class="box">
-                <input type="email" placeholder="email" class="box">
-                <input type="text" placeholder="project" class="box">
-                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
-            </form>
         </div>
-
     </section>
-    <!-- contact section ends -->
 
-    <!-- scroll top button -->
-
-    <a href="#home" class="top">
-        <img src="images/scroll-top.png" alt="">
-    </a>
-
-
-
-
-
-    <!-- jquery cdn link -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
-    <!-- jquery js file link -->
-    <script src="script.js"></script>
+    <!----Javascript-->
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 
